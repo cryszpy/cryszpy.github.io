@@ -3,14 +3,14 @@ ul.navbar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:lightskyblue;
+    background-color: #abc5d4;
 }
 
 li.navbar {
     float: left;
 }
 
-li.navbar a {
+li a {
     display: block;
     color: white;
     text-align: center;
