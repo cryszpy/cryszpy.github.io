@@ -56,3 +56,14 @@ nav ul .logo a {
 nav ul .logo a:hover {
 	background-color: #10233b;
 }
+
+img, video {
+	border-radius: 0.75rem;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.gamesList {
+    list-style-type: none;
+}
