@@ -1,3 +1,24 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+
+html {
+	background: #ecf6f8;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+footer {
+	font-style: italic;
+	background-color: #151515;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 1.25rem;
+}
+
 nav {
     width: 100%;
     top: 0;
@@ -110,4 +131,108 @@ img, video {
     margin-top: 2rem;
     margin-bottom: -0.5rem;
     font-size: 1.75rem;
+}
+
+.gameInfo {
+    align-items: center;
+    justify-content: center;
+}
+
+.gameInfo .gameTitle {
+	font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gameInfo .gameGenres ul {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 0rem 0rem;
+    padding: 0rem;
+}
+
+.gameInfo .gameGenres ul li .genre {
+	background-color: #e48383;
+	border-radius: 0.15rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 0.25rem 1rem;
+    margin: 0rem 0.15rem;
+    transition: background-color ease 0.1s;
+    text-decoration: none;
+}
+
+.gameInfo .gameGenres ul li .genre:hover {
+	background-color: #f3d0eb;
+}
+
+.gameInfo .similarGames ul {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 0rem 0rem;
+    padding: 0rem;
+}
+
+.gameInfo .similarGames ul li {
+	font-style: italic;
+}
+
+.gameInfo .similarGames ul li p {
+	margin: 1.5rem 1rem;
+}
+
+.gameInfo .similarGames ul li .similarGame {
+	background-color: #e5c457;
+    color: #000000;
+	border-radius: 0.15rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color ease 0.1s;
+    padding: 0.5rem 0.75rem;
+    margin: 0rem 0.15rem;
+}
+
+.gameInfo .similarGames ul li .similarGame:hover {
+	background-color: #eac096;
+}
+
+.gameRow {
+	display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.gameRow .gameMedia {
+	max-width: 50%;
+    margin: 1rem;
+}
+
+.gameRow .gameMedia figcaption {
+	font-size: 1.25rem;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.gameRow .gameBlock {
+	min-width: 300px;
+    max-width: 40%;
+    line-height: 2rem;
+    margin: 0 0.5rem;
+}
+
+.gameRow .gameBlock img {
+	max-width: 5%;
+    max-height: 5%;
 }
