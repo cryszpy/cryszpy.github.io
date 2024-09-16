@@ -227,6 +227,11 @@ img, video {
     margin: 1rem;
 }
 
+.gameRow .gameMedia img {
+    min-width: 300px;
+    max-width: 65%;
+}
+
 .gameRow .gameMedia figcaption {
 	font-size: 1.25rem;
     text-align: center;
