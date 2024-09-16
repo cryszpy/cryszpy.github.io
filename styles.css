@@ -118,6 +118,7 @@ img, video {
 .gamesList p {
 	font-size: 1rem;
     font-style: italic;
+    margin: 1rem 0rem;
 }
 
 .gamesList .game .gameImage {
@@ -219,16 +220,15 @@ img, video {
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 2%;
-}
+	gap: 2%;
+}	
 
 .gameRow .gameMedia {
-    margin: 1rem;
-}
-
-.gameRow .gameMedia img {
+	background-color: #000000;
     min-width: 300px;
-    max-width: 70%;
+    max-width: 40%;
+    margin: 0.5rem 0rem;
+    text-align: center;
 }
 
 .gameRow .gameMedia figcaption {
