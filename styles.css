@@ -223,13 +223,12 @@ img, video {
 }
 
 .gameRow .gameMedia {
-	max-width: 50%;
     margin: 1rem;
 }
 
 .gameRow .gameMedia img {
     min-width: 300px;
-    max-width: 65%;
+    max-width: 70%;
 }
 
 .gameRow .gameMedia figcaption {
