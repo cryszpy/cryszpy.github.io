@@ -224,7 +224,6 @@ img, video {
 }	
 
 .gameRow .gameMedia {
-	background-color: #000000;
     min-width: 300px;
     max-width: 40%;
     margin: 0.5rem 0rem;
