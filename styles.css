@@ -156,6 +156,19 @@ img, video {
     text-transform: uppercase;
 }
 
+.gameInfo .gameSummary {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+    margin-bottom: 1rem;
+}
+
+.gameInfo .gameSummary h2 {
+	font-weight: normal;
+	font-size: 1.15rem;
+    font-style: italic;
+}
+
 .gameInfo .gameGenres ul {
 	display: flex;
     align-items: center;
@@ -224,6 +237,7 @@ img, video {
 }	
 
 .gameRow .gameMedia {
+	background-color: #000000;
     min-width: 300px;
     max-width: 40%;
     margin: 0.5rem 0rem;
@@ -240,7 +254,7 @@ img, video {
 .gameRow .gameBlock {
 	min-width: 300px;
     max-width: 45%;
-    line-height: 2rem;
+    line-height: 1.6rem;
     margin: 0 0.5rem;
 }
 
