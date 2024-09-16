@@ -7,12 +7,17 @@ html {
 	background: #ecf6f8;
 }
 
+body {
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+
 h3 {
 	font-weight: normal;
 }
 
 footer {
-    position: absolute;
 	font-style: italic;
 	background-color: #151515;
     color: #f8f8f8;
@@ -20,6 +25,7 @@ footer {
     padding: 1.25rem;
     width: 100%;
     bottom: 0px;
+    margin-top: auto;
 }
 
 nav {
@@ -230,12 +236,12 @@ img, video {
 
 .gameRow .gameBlock {
 	min-width: 300px;
-    max-width: 40%;
+    max-width: 45%;
     line-height: 2rem;
     margin: 0 0.5rem;
 }
 
 .gameRow .gameBlock img {
 	max-width: 5%;
-    max-height: 5%;
+	max-height: 5%;
 }
